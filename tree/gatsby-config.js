@@ -3,7 +3,8 @@ module.exports = {
     title: `เฝ้าเดียว`,
     author: `Army`,
     description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
+    siteUrl: `https://seedchurch.github.io/memorize-bible/`,
+    pathPrefix: `/`,
     social: {
       twitter: `kylemathews`,
     },
