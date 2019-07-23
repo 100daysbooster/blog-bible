@@ -3,8 +3,8 @@ module.exports = {
     title: `เฝ้าเดียว`,
     author: `Army`,
     description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://seedchurch.github.io/memorize-bible/`,
-    pathPrefix: `/memorize-bible`,
+    siteUrl: `http://100daysbooster.github.io/meetingod`,
+    pathPrefix: `/meetingod`,
     social: {
       twitter: `kylemathews`,
     },
