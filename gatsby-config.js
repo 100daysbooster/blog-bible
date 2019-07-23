@@ -3,8 +3,7 @@ module.exports = {
     title: `เฝ้าเดียว`,
     author: `Army`,
     description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `http://100daysbooster.github.io/meetingod`,
-    pathPrefix: `/meetingod`,
+    siteUrl: `http://100daysbooster.github.io/`,
     social: {
       twitter: `kylemathews`,
     },
