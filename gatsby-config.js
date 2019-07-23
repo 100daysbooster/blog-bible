@@ -4,7 +4,7 @@ module.exports = {
     author: `Army`,
     description: `A starter blog demonstrating what Gatsby can do.`,
     siteUrl: `https://seedchurch.github.io/memorize-bible/`,
-    pathPrefix: `/`,
+    pathPrefix: `/memorize-bible`,
     social: {
       twitter: `kylemathews`,
     },
