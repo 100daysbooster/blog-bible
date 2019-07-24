@@ -15,8 +15,11 @@ class BlogIndex extends React.Component {
 
         return (
             <Layout location={this.props.location} title={siteTitle}>
-              
-                <SEO title="All posts"/> {posts.map(({node}) => {
+                <SEO title="All posts"/> 
+                <aside>
+          <Bio />
+        </aside>
+                {posts.map(({node}) => {
                     const title = node.frontmatter.title || node.fields.slug
                     return (
                         <div key={node.fields.slug}>
@@ -33,8 +36,7 @@ class BlogIndex extends React.Component {
                                 </Link>
                             </h3>
                             <small>
-                                {node.frontmatter.date} 
-
+                                {node.frontmatter.date}   💬
                             </small>
                             <p
                                 dangerouslySetInnerHTML={{
