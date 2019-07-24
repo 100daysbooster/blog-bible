@@ -3,7 +3,8 @@ import Wordpress2016 from "typography-theme-wordpress-2016"
 import './global.css';
 Wordpress2016.overrideThemeStyles = () => ({
     a: {
-        color: 'var(--textLink)'
+        color: 'var(--textLink)',
+        fontFamily: 'Pridi'
     },
     hr: {
         background: 'var(--hr)'
@@ -24,6 +25,7 @@ Wordpress2016.overrideThemeStyles = () => ({
     // TODO: why tho
     'h1 code, h2 code, h3 code, h4 code, h5 code, h6 code': {
         fontSize: 'inherit'
+        
     },
     'li code': {
         fontSize: '1rem'
