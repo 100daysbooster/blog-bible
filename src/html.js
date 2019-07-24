@@ -12,6 +12,7 @@ export default class HTML extends React.Component {
             name="viewport"
             content="width=device-width, initial-scale=1, shrink-to-fit=no"
           />
+          <link href="https://fonts.googleapis.com/css?family=Pridi&display=swap" rel="stylesheet"></link>
           {this.props.headComponents}
         </head>
         <body {...this.props.bodyAttributes} className="light">
