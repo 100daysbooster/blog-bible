@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `เฝ้าเดียว`,
+    title: `Diary  ⛪`,
     author: `Army`,
     description: `A starter blog demonstrating what Gatsby can do.`,
     siteUrl: `http://100daysbooster.github.io/`,
@@ -8,8 +8,7 @@ module.exports = {
       twitter: `kylemathews`,
     },
   },
-  plugins: [
-    {
+  plugins: [{
       resolve: `gatsby-source-filesystem`,
       options: {
         path: `${__dirname}/content/blog`,
@@ -26,8 +25,7 @@ module.exports = {
     {
       resolve: `gatsby-transformer-remark`,
       options: {
-        plugins: [
-          {
+        plugins: [{
             resolve: `gatsby-remark-images`,
             options: {
               maxWidth: 590,

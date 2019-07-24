@@ -6,6 +6,7 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import {rhythm} from "../utils/typography"
 import {Helmet} from "react-helmet"
+
 class BlogIndex extends React.Component {
     render() {
         const {data} = this.props
@@ -14,6 +15,7 @@ class BlogIndex extends React.Component {
 
         return (
             <Layout location={this.props.location} title={siteTitle}>
+              
                 <SEO title="All posts"/> {posts.map(({node}) => {
                     const title = node.frontmatter.title || node.fields.slug
                     return (
@@ -30,7 +32,10 @@ class BlogIndex extends React.Component {
                                     {title}
                                 </Link>
                             </h3>
-                            <small>{node.frontmatter.date}</small>
+                            <small>
+                                {node.frontmatter.date} 
+
+                            </small>
                             <p
                                 dangerouslySetInnerHTML={{
                                 __html: node.frontmatter.description || node.excerpt
