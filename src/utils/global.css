@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css?family=Pridi&display=swap');
 body {
     --pink: rgb(255, 167, 196);
     background-color: var(--bg);
+    font-family: 'Pridi', sans-serif;
   }
   
   body.light {
