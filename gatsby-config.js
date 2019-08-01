@@ -1,4 +1,5 @@
 module.exports = {
+    pathPrefix: `/Live-blog-bible`,
     siteMetadata: {
         title: `Diary  ⛪`,
         author: `Army`,
